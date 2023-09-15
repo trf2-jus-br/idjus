@@ -11,7 +11,7 @@ const port = 8081;
 const config = {
     URL_PROVIDER: process.env.IDJUS_GOVBR_URL_PROVIDER,
     URL_SERVICE: process.env.IDJUS_GOVBR_URL_SERVICE,
-    REDIRECT_URI: process.env.API_URL_BROWSER + process.env.IDJUS_GOVBR_REDIRECT_URI,
+    REDIRECT_URI: process.env.IDJUS_API_URL_BROWSER + process.env.IDJUS_GOVBR_REDIRECT_URI,
     SCOPES: process.env.IDJUS_GOVBR_SCOPES,
     CLIENT_ID: process.env.IDJUS_GOVBR_CLIENT_ID,
     SECRET: process.env.IDJUS_GOVBR_SECRET

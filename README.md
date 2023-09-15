@@ -28,15 +28,15 @@ Configure as propriedades de ambiente:
   - IDJUS_GOVBR_SCOPES=openid+email+phone+profile
 
 - Informar a URL onde estará instalado o Idjus:
-  - API_URL_BROWSER=http://localhost:8080/
+  - IDJUS_API_URL_BROWSER=http://localhost:8080/
 
 ## Desenvolvedor
 
 Clone este repositório
 
 ```shell
-run npm install
-run node samples/express.js
+npm install
+node express.js
 ```
 
 O seriviço irá rodar na porta 8080.
